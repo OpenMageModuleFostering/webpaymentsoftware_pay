@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>WebPaymentSoftware_Pay</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>WPS, a PCI Level 1 service provider, offering you the most safe and secure online payment solutions available.</summary>
+    <description>Web Payment Software&#x2122; is a product and service of Mountain Media.  Mountain Media has been serving the eCommerce development marketplace since 1998.&#xD;
+ &#xD;
+As a compliment to Mountain Commerce, the company&#x2019;s full-featured eCommerce platform, Mountain Media has developed a payment gateway for use with eCommerce Web sites with an added twist.  Not only does Web Payment Software&#x2122; function as a traditional ecommerce gateway and virtual terminal, it also offers a hosted solution for constructing and managing &#x201C;payment pages.&#x201D; This flexible new system is great for accepting online invoice payments, donations or event registrations or as an alternative to PayPal.&#xD;
+ &#xD;
+Mountain Media is a PCI DSS compliant hosting provider which ensures that your transactions will be protected by the toughest data security standards and technology available.&#xD;
+ &#xD;
+Contact a payment consultant today at (877) 583-0300 for a free consultation.</description>
+    <notes>First release</notes>
+    <authors><author><name>wps</name><user>wps_magento</user><email>dev@web-payment-software.com</email></author></authors>
+    <date>2013-11-08</date>
+    <time>18:05:47</time>
+    <contents><target name="magecommunity"><dir name="WebPaymentSoftware"><dir name="Pay"><dir name="Block"><dir name="Form"><file name="Pay.php" hash="e135ba0b5c3d15fee6598e141ac75ff2"/></dir><dir name="Info"><file name="Pay.php" hash="f70b683675249e1d2a37c48dc65fd06c"/></dir></dir><dir name="Helper"><file name="Data.php" hash="7374e037a98af0661be9c67d3e66aaaf"/></dir><dir name="Model"><file name="Api.php" hash="785ace2ecac6f78af74e350b8ff78364"/><file name="Pay.php" hash="07ace6a00da2c2f727da201d6fe64822"/><dir name="Source"><file name="Action.php" hash="5e9830f2921b3bd0b3e246f9832d7f18"/><file name="Cctype.php" hash="45e6997f63628c826b554cf8dc85f35a"/></dir></dir><dir name="etc"><file name="config.xml" hash="11afb437534b15877c14758695af51cd"/><file name="system.xml" hash="87fb20507d5455fdbd36d447b6dab24e"/></dir><dir name="sql"><dir name="pay_setup"><file name="mysql4-install-0.1.0.php" hash="80f739cd45919dab5648ff12faf083ee"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="WebPaymentSoftware_Pay.xml" hash="1286d3ba81e449140c2366c77582c7e2"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

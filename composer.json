@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/WebPaymentSoftware_Pay",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "WPS, a PCI Level 1 service provider, offering you the most safe and secure online payment solutions available.",
+    "authors": [
+    {
+        "name": "wps",
+        "email": "dev@web-payment-software.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
